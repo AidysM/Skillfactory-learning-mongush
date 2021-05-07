@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задание из А4.12</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="popup-button">Voyti</button>
+  <div class="popup"></div>
+  <script>
+    let button=document.querySelector('.popup-button');
+    button.addEventListener('mouseover', showPopup);
+
+    function showPopup() {
+      document.querySelector('.popup').classList.add('visible');
+      console.log('showPopup работает!');
+    }
+
+    button.addEventListener('mouseout', hidePopup);
+
+    function hidePopup() {
+      document.querySelector('.popup').classList.remove('visible');
+      console.log('hidePopup работает!');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+}
+header {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3vw;
+    background-color: #153586;
+}
+.site-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-menu li {
+    margin: 0 15px;
+}
+
+.site-menu a {
+	font-size: 20px;
+	color: #fff;
+}
+
+h2 {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    flex: 1 1 250px;
+    background-color: orange;
+    margin: 5px;
+}
+.item > img {
+    width: 90%;
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        flex: 1 1 100%;
+    }
+}

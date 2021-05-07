@@ -1,0 +1,20 @@
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.main {
+  flex-direction: row-reverse;
+  background-color: grey;
+}
+.header, .footer { 
+  height: 40px;
+  background: blue; 
+}
+.sidebar { 
+  height: calc(100vh - 40px);
+  background: darkblue; 
+}
+.content {
+  height: calc(100% - 40px);
+}

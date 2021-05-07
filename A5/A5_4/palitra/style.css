@@ -1,0 +1,23 @@
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.col {
+height: 100px;
+}
+.perv { 
+background: #801B14; 
+}
+.vtor { 
+background: #F2E4A4; 
+}
+.tret { 
+background: #A19D77; 
+}
+.chet { 
+background: #2A2B24; 
+}
+.pyat { 
+background: #E0493F; 
+}
